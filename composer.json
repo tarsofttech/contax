@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MyVendor\\contactform\\": "src/"
+            "Tarsoft\\Contax\\": "src/"
         }
     }
 }
