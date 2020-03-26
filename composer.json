@@ -1,0 +1,18 @@
+{
+    "name": "tarsoft/contax",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MUHAMMAD TARMIZI SANUSI AFKAR",
+            "email": "realtarmizisanusi@gmail.com"
+        }
+    ],
+    "require": {
+        "laravelcollective/html": "^6.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\contactform\\": "src/"
+        }
+    }
+}
