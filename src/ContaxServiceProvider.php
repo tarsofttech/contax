@@ -14,7 +14,6 @@ class ContaxServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-        // $this->loadViewsFrom(__DIR__.'/views', 'Greeting');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'contactform');
         $this->loadMigrationsFrom(__DIR__.'/Database/migrations');
 
@@ -29,6 +28,6 @@ class ContaxServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // $this->app->make('Samtarmizi\Greeting\Controllers\GreetingController');
+
     }
 }
