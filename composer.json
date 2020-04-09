@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tarsoft\\Contax\\ServiceProvider"
+                "Tarsoft\\Contax\\ContaxServiceProvider::class"
             ]
         }
     }
