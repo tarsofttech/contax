@@ -1,5 +1,5 @@
 <?php
-    
+
 namespace Tarsoft\Contax\Http\Controllers;
 
 use App\Http\Controllers\Controller;
